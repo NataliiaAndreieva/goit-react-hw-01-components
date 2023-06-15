@@ -1,0 +1,6 @@
+.transaction_history {
+    width: 375px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
