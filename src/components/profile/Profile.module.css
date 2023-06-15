@@ -17,7 +17,7 @@
   margin-right: auto;
   margin-bottom: 40px;
   border-radius: 50%;
-  background-color: gray;
+  background-color: rgb(240, 220, 220);
   overflow: hidden;
 }
 
@@ -34,7 +34,7 @@
 .stats {
   display: flex;
   justify-content: center;
-  background-color: grey;
+  background-color: rgb(240, 220, 220);
   overflow: hidden;
 }
 
