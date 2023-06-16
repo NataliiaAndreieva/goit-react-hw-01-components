@@ -30,7 +30,11 @@ function TransactionHistory({ items }) {
 };
 
 TransactionHistory.propTypes = {
-    items: PropTypes.array.isRequired,
+  items: PropTypes.array.isRequired,
+  id: PropTypes.number,
+  type: PropTypes.string,
+  amount: PropTypes.number,
+  currency: PropTypes.string,
 };
 
 export { TransactionHistory };

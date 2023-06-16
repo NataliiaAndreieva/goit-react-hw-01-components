@@ -12,6 +12,12 @@ function FriendList({ friends }) {
     );
 }
 
-FriendList.propTypes = { friends: PropTypes.array.isRequired };
+FriendList.propTypes = {
+  friends: PropTypes.array.isRequired,
+  avatar: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  isOnline: PropTypes.bool,
+  id: PropTypes.number,
+};
 
 export { FriendList };

@@ -8,7 +8,7 @@ function FriendListItem(props) {
     const {
       avatar = 'https://cdn-icons-png.flaticon.com/512/5195/5195775.png',
       name = 'user',
-        isOnline,
+      isOnline,
     } = props;
 
 return (
